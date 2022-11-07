@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flowerise</string>
+    <string name="fl">فازة ورد</string>
+    <string name="back">رجوع</string>
+    <string name="go">تسجيل دخول</string>
+    <string name="todo">تو دو</string>
+    <string name="us">اسم المستخدم</string>
+    <string name="pa">الرقم السري</string>
+    <string name="to">TO</string>
+    <string name="c">عدد الفازات</string>
+</resources>

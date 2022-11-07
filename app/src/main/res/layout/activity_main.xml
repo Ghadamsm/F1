@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#36363C"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="413dp"
+        android:layout_height="443dp"
+        android:layout_marginBottom="176dp"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="40dp"
+            android:contentDescription="@string/to"
+            app:srcCompat="@mipmap/logo"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="39dp" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/us"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="50dp"
+            tools:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/pa"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textStyle="bold|italic"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="130dp"
+            tools:textColor="@color/white"
+            tools:textColorHint="@color/white" />
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#2E2D33"
+            android:onClick="goSec"
+            android:text="@string/go"
+            android:textStyle="bold|italic"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="500dp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="108dp"
+        android:backgroundTint="#2E2D33"
+        android:text="@string/work_hours"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="108dp"
+        android:backgroundTint="#2E2D33"
+        android:onClick="go1"
+        android:text="@string/about"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="108dp"
+        android:backgroundTint="#2E2D33"
+        android:text="@string/call_us"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

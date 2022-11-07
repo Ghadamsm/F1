@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Flowerise</string>
+    <string name="fl">فازة ورد</string>
+    <string name="back">Back</string>
+    <string name="go">Login</string>
+    <string name="todo">TODO</string>
+    <string name="us">user name</string>
+    <string name="pa">password</string>
+    <string name="to">TO</string>
+    <string-array name="numbers">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string name="c">عدد الفازات</string>
+    <string name="add_to_cart" translatable="false">add to cart</string>
+    <string name="work_hours" translatable="false">Work Hours</string>
+    <string name="about" translatable="false">About</string>
+    <string name="call_us" translatable="false">Call Us</string>
+    <string name="second_fragment_label" />
+    <string name="first_fragment_label" />
+</resources>
